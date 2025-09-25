@@ -1,0 +1,87 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f0f4f8, #d9e4f5);
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.container {
+  background:turquoise;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 600px;
+  transition: transform 0.3s ease;
+}
+
+.container:hover {
+  transform: scale(1.01);
+}
+
+
+h1, h2 {
+  text-align: center;
+  color: #333;
+}
+
+
+button {
+  display: block;
+  background: #4285f4;
+  color: white;
+  border: 2px solid #4285f4;
+  padding: 12px 20px;
+  margin: 20px auto 0;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: white;
+  color: #4285f4;
+  border-color: #4285f4;
+  box-shadow: 0 0 8px rgba(66, 133, 244, 0.4);
+}
+
+
+label {
+  display: block;
+  margin: 10px 0;
+  padding: 10px 15px;
+  background-color: #f5f7fa;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+label:hover {
+  background-color: #e9eff6;
+}
+
+.hidden {
+  display: none;
+}
+
+.review {
+  background: #fff9f0;
+  padding: 15px;
+  margin-top: 15px;
+  border-left: 4px solid #ffa500;
+  border-radius: 6px;
+}
+
+
+#box p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
